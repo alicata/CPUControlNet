@@ -1,3 +1,10 @@
+# CPUControlNet
+A modifed fork of ControlNet that works in CPU with no NVIDIA GPU dependency. Useful for hacking, testing, experimenting on laptop with tools complementary to a GPU implmentation.
+
+
+
+Orignal GPU ControlNet below.
+
 # News: A nightly version of ControlNet 1.1 is released!
 
 [ControlNet 1.1](https://github.com/lllyasviel/ControlNet-v1-1-nightly) is released. Those new models will be merged to this repo after we make sure that everything is good.
