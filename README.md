@@ -3,6 +3,11 @@ A modifed fork of ControlNet that works in CPU with no NVIDIA GPU dependency. Us
 
 Why? Sometimes experiments are more convenient on laptop, but for many laptops the available GPU VRAM is only 4GB or less and the model requires a 8GB VRAM GPU. The port allowed using host memory instead, and load the weights fully in a modest laptop.
 
+```bash
+python ./cpu_canny2image.py
+```
+
+
 Orignal GPU ControlNet below.
 
 # News: A nightly version of ControlNet 1.1 is released!
