@@ -1,7 +1,7 @@
 # CPUControlNet
 A modifed fork of ControlNet that works in CPU with no NVIDIA GPU dependency. Useful for hacking, testing, experimenting on laptop with tools complementary to a GPU implmentation.
 
-Why? Sometimes experiment are more convinent on laptop, but what to do when GPU VRAM is only 4GB or less and the model requires a 8GB VRAM GPU?
+Why? Sometimes experiments are more convenient on laptop, but many laptops available GPU VRAM is only 4GB or less and the model requires a 8GB VRAM GPU. The port allowed using host memory instead, and load the weights fully in a modest laptop.
 
 Orignal GPU ControlNet below.
 
