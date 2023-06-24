@@ -3,6 +3,15 @@ A modifed fork of ControlNet that works in CPU with no NVIDIA GPU dependency. Us
 
 Why? Sometimes experiments are more convenient on laptop, but for many laptops the available GPU VRAM is only 4GB or less and the model requires a 8GB VRAM GPU. The port allowed using host memory instead, and load the weights fully in a modest laptop.
 
+# Setup & Weights
+Follow ControlNet install instruction.
+
+Download the control_sd15_canny.pth checkpoint and move checkopint file in the ./model folder. 
+```
+https://huggingface.co/lllyasviel/ControlNet/blob/main/models/control_sd15_canny.pth
+```
+
+
 ```bash
 python ./cpu_canny2image.py
 ```
