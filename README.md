@@ -11,7 +11,8 @@ Download the control_sd15_canny.pth checkpoint and move checkopint file in the .
 https://huggingface.co/lllyasviel/ControlNet/blob/main/models/control_sd15_canny.pth
 ```
 
-
+# Test Usage
+Test harcoded to load an image from /data/test.jpg,
 ```bash
 python ./cpu_canny2image.py
 ```
