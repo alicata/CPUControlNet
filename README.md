@@ -42,7 +42,7 @@ The "zero convolution" is a 1×1 convolution with both weight and bias initializ
 ## Applications
 * Domain adaptation through conditional modeling
 * Applications where maintaining the integrity of the original model is crucial.
-* Fone-tuning and adaptation without the risk of **forgetting** or deteriorating the original model's capabilities.
+* Fine-tuning and adaptation without the risk of **forgetting** or deteriorating the original model's capabilities.
 
 
 # Citation
